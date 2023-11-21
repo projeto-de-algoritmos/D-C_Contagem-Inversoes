@@ -29,7 +29,7 @@ void combine(int *V, int l, int middle, int r)
         V[l + k] = VAux[k];
         k++;
     }
-    // free(VAux); //Free nao funciona em arrays de uma posição
+    free(VAux); //Free nao funciona em arrays de uma posição
 }
 
 int count_inversions(int *V, int l, int r)
