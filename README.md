@@ -74,6 +74,8 @@ Para rodar o código local em C basta criar uma função main, declarar um array
 ```
 
 ## **Apresentação**
+<video src='2023-11-21-00-25-04_MkCtEf2K.mp4' width=180/>
+
 
 
 
