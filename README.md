@@ -1,44 +1,79 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# **Contagem de Inversões**
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
+**Número da Lista**: 1<br>
+**Conteúdo da Disciplina**: Dividir e Conquistar<br>
 
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
-
-## Alunos
+## **Alunos**
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 17/0140571  |  Douglas Farias de Castro |
+| 17/0034941  |  Guilherme Peixoto |
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+## **Sobre**
+O projeto atual faz parte de quarta entrega da disciplina de Projeto de Algoritmos. O objetivo é exercitar o algoritmo de contagem de inversões. Na primeira parte foi desenvolvido a base onde é possível ver as etapas desse algoritmo e na segunda foi resolvido problemas do juiz online [Leet Code](https://leetcode.com/).
 
-## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+## **Screenshots**
 
-## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+### **Contagem de Inversão (Dividir)**
+![Código](img/counting-inversion.png)
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+### **Combine(Conquistar)**
+![Código](img/combine.png)
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+### **Problema 493: Reverse Pairs**
+
+- Link: [Problema](https://leetcode.com/problems/reverse-pairs/)
+- Dificuldade: Difícil
+
+#### **Código**
+![Código 493](img/493-code.png)
+
+#### **Resultado**
+![Resultado 493](img/493.png)
+
+### **Problema 755: Reverse Pairs**
+
+- Link: [Problema](https://leetcode.com/problems/global-and-local-inversions/)
+- Dificuldade: Médio
+
+#### **Código**
+![Código 775](img/775.png)
+
+#### **Resultado**
+![Resultado 755](img/775-result.png)
+
+## **Instalação**
+**Linguagem**: Python e C<br>
+
+Para executar o projeto é necessário ter instalado em sua máquina o Python 3.
+
+## **Uso**
+
+Para executar é muito simples, basta rodar os comandos abaixo no terminal:
+
+### **Base:**
+
+```bash
+  python3 algorithm/CountingInversion.py
+```
+
+### **Problema 755:**
+
+Para rodar o código local em Python basta criar uma função main, declarar um array e rodar o seguintes comando:
+
+```bash
+  python3 problems/775.py
+```
+
+### **Problema 493:**
+
+Para rodar o código local em C basta criar uma função main, declarar um array e rodar o seguintes comando:
+
+```bash
+  gcc problems/493.c && ./a.out
+```
+
+## **Apresentação**
 
 
 
